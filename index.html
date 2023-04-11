@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="row w-100">
+        <a class="navbar-brand ml-4" href="#">
+          <img src="assets/logo.png" width="80" height="80" alt="" />
+        </a>
+        <button class="navbar-toggler ml-sm-auto ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mr-auto">
+            <a class="nav-link active font-weight-bold small a-header" href="#">DASHBOARD</a>
+            <a class="nav-link active font-weight-bold small a-header" href="#">COURSE CATALOGUE</a>
+            <a class="nav-link active font-weight-bold small a-header" href="#">MY BADGES</a>
+            <a class="nav-link active font-weight-bold small a-header" href="#">EVENTS</a>
+          </div>
+          <div class="navbar-nav">
+            <a class="nav-link active font-weight-bold small a-header-login p-0" href="#">LOGIN</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- END OF NAVBAR -->
+
+    <!-- HERO -->
+    <div class="container-fluid bg-light">
+      <div class="row">
+        <div class="col-md-6 rrr">
+          <div class="container p-5 my-5 w-75">
+            <form>
+              <div class="form-group">
+                <small id="emailHelp" class="form-text text-muted"
+                  >Welcome to</small
+                >
+                <h4 class="mb-4">MyLearning</h4>
+                <label for="exampleInputEmail1">Username</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <button type="submit" class="btn btn-warning w-100 mt-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
+                LOG IN
+              </button>
+              <div class="container">
+                <div class="row">
+                  <small class="form-text text-muted mr-auto">Contact us</small>
+                  <small class="form-text text-muted ml-auto"
+                    >Lost password?</small
+                  >
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-6 style= heroImage"></div>
+      </div>
+    </div>
+    <!-- END OF HERO -->
+
+    <!--CARDS-->
+    <section class="p-5">
+      <div class="container mt-3">
+        <div class="row">
+          <div class="col-md-12">
+            <h4 class="mb-4 pb-3 section-h4">Course Catalogue</h4>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div
+            class="card text-center justify-content-center mx-auto my-3 border-0 shadow rounded-0 cardsmall"
+          >
+            <div class="card-body">
+              <h6 class="card-title">Product and Technical</h6>
+              <img class="card-img-center mt-5 mb-5" src="assets/product.png" width="50" height="50" alt="" />
+              <a href="#" class="btn border-dark rounded-0 btn-cards"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
+                VIEW COURSES</a
+              >
+            </div>
+          </div>
+          <div
+            class="card text-center justify-content-center mx-auto my-3 border-0 shadow rounded-0 cardsmall"
+          >
+            <div class="card-body">
+              <h6 class="card-title">Business Development</h6>
+              <img class="card-img-center mt-5 mb-5" src="assets/business-development.png" width="50" height="50" alt="" />
+              <a href="#" class="btn border-dark rounded-0 btn-cards"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
+                VIEW COURSES</a
+              >
+            </div>
+          </div>
+          <div
+            class="card text-center justify-content-center mx-auto my-3 border-0 shadow rounded-0 cardsmall"
+          >
+            <div class="card-body">
+              <h6 class="card-title">Optics and Manufacturing</h6>
+              <img class="card-img-center mt-5 mb-5" src="assets/optics.png" width="50" height="50" alt="" />
+              <a href="#" class="btn border-dark rounded-0 btn-cards"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
+                VIEW COURSES</a
+              >
+            </div>
+          </div>
+          <div
+            class="card text-center justify-content-center mx-auto my-3 border-0 shadow rounded-0 cardsmall"
+          >
+            <div class="card-body">
+              <h6 class="card-title cpd">CPD</h6>
+              <img class="card-img-center mt-5 mb-5" src="assets/cpd.png" width="50" height="50" alt="" />
+              <a href="#" class="btn border-dark rounded-0 btn-cards"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
+                VIEW COURSES</a
+              >
+            </div>
+          </div>
+          <div
+            class="card text-center justify-content-center mx-auto my-3 border-0 shadow rounded-0 cardsmall"
+          >
+            <div class="card-body">
+              <h6 class="card-title">Business Management</h6>
+              <img class="card-img-center mt-5 mb-5" src="assets/business-management.png" width="50" height="50" alt="" />
+              <a href="#" class="btn border-dark rounded-0 btn-cards"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
+                VIEW COURSES</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--END OF CARDS-->
+
+    <!--VIDEO-->
+    <section>
+      <div class="container-fluid mt-5 mb-5 pb-5">
+        <div class="row pt-5 grey">  
+              <img
+              class="mx-auto mt-5 d-block img"
+                src="assets/videoplaceholder.png"
+                alt=""
+              ></img>
+              <div class="row mx-auto d-block mb-5 about">
+                <h1 class="mt-4">About Nikon Lenswear</h1>
+                <p class="mt-3">A pioneer in ophthalmic lens technology, Nikon Lenswear support premium independent opticians across the UK to grow and differentiate their business.</p>
+              </div>           
+        </div>
+        <div class="">        
+        </div>
+      </div>
+    </section>  
+    <!--END OF VIDEO-->
+    <!--FOOTER-->
+    <footer class="footer">
+      <div class="d-block py-5 ml-5 w-25">
+        <small class="text-muted">&copy; 2023 NIkon Optical Ltd, All rights reserved.</small>
+        <button type="submit" class="btn btn-warning w-100 mt-4 mb-4">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-arrow-right"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+            />
+          </svg>
+          CONTACT US
+        </button>
+
+        <small>Nikon Optical Ltd<br>
+        3 Tanners Drive<br>
+        Blakelands<br>
+        Milton Keynes, Bucks MK14 5BU<br>
+        United-Kingdom</small><br><br>
+
+        <small>
+          <a href="">Data retention summary</a>
+        </small><br>
+        <small>
+          <a href="">Policies</a>
+        </small><br>
+        <br>
+        <button type="submit" class="btn btn-outline-success w-100 cookies">
+          Cookies Settings
+        </button>
+      </div>
+    </footer>
+    
+    <!--END OF FOOTER-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
