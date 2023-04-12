@@ -70,7 +70,7 @@ button {
   margin-bottom: 300px!important;
 }
 
-.rrr {
+.form-hero {
   background-color: #f1f1f1!important;
 }
 
@@ -94,6 +94,12 @@ button {
 @media only screen and (max-width: 767px) {
   footer .d-block{
     width: 75%!important;
+  }
+
+  .form-hero * {
+    padding: 0px!important;
+    margin: 0px!important;
+    min-width: 100%!important;
   }
 
   .img, .about {
